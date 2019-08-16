@@ -1,4 +1,18 @@
-module Poker exposing (Number(..), Suite(..))
+module Poker exposing
+    ( Card(..)
+    , Deck
+    , Hand(..)
+    , Number(..)
+    , RankedHand(..)
+    , SortedHand(..)
+    , Suite(..)
+    , compairHands
+    , deck
+    , numbers
+    , rank
+    , sortHand
+    , suites
+    )
 
 import List.Extra
 
